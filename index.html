@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inline Audio Player Demo</title>
+    <link rel="stylesheet" href="/sample.css" />
+    <script type="module" src="/src/inline-audio-player.ts"></script>
+  </head>
+  <body>
+    <inline-audio-player src="/sample.mp3">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+      <div style="margin-inline-start: 0.5rem" slot="pause-icon">(Pause)</div>
+      <div style="margin-inline-start: 0.5rem" slot="play-icon">(Play)</div>
+    </inline-audio-player>
+  </body>
+</html>
